@@ -1,0 +1,52 @@
+div {
+    width: 130px;
+    height: 130px;
+    margin-right: 50px;
+}
+
+
+.circle {
+    border-radius: 50%;
+    float: left;
+}
+
+.rounded {
+    border-radius: 25%;
+    float: left;
+}
+
+.square {
+    border-radius: 0%;
+    float: left;
+}
+
+#circle {
+    background-color: green;
+}
+
+#rounded {
+    background: blue;
+}
+
+#square {
+    background-color: purple;
+}
+
+/* This applies to both charts */
+
+table tr:nth-child(even) {
+    background-color: lightgrey;
+}
+
+table th {
+    background-color: black;
+    color: white;
+  }
+
+  table tr:nth-child(odd) {
+    background-color: white;
+    }
+
+
+
+  }

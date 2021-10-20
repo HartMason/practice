@@ -6,9 +6,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css"/>
+    <script src="styles.js"></script>
 </head>
 
 <body>
+    <main>
+    <button onclick="sayHello()">Click To See a Greeting</button>
+
+    <button onclick="multiplyTwoNums()">Click to See Product</button>
     
-</body>
+    <div id="product"></div> 
+    <!-- this HTML makes the buttons appear on the page-->
+    
+    <div class="circle" id="circle" onclick="disappear(this)"></div>
+    
+    <div class="rounded" id="rounded" onclick="disappear(this)"></div>
+    
+    <div class="square" id="square" onclick="disappear(this)"></div>
+    </main>
+    
+    <table>
+        <thead>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Alfreds Futterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+          </tr>
+          <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+          </tr>
+          <tr>
+            <td>Ernst Handel</td>
+            <td>Roland Mendel</td>
+            <td>Austria</td>
+          </tr>
+          <tr>
+            <td>Island Trading</td>
+            <td>Helen Bennett</td>
+            <td>UK</td>
+          </tr>
+          <tr>
+            <td>Laughing Bacchus Winecellars</td>
+            <td>Yoshi Tannamuri</td>
+            <td>Canada</td>
+          </tr>
+          <tr>
+            <td>Magazzini Alimentari Riuniti</td>
+            <td>Giovanni Rovelli</td>
+            <td>Italy</td>
+          </tr>
+        </tbody>
+        <tfoot>Notes about the companies would go here.</tfoot>  
+      </table>
+
+
+    <table>
+        <tr>
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+        <tr>
+          <td>John</td>
+          <td>Doe</td>
+          <td>80</td>
+        </tr>
+      </table> 
+
+
 </html>
+
+<!-- Ask Tutor how to structure the HTML to get objects to appear ontop of eachother??????????? -->
